@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px; /* Hoặc dùng gap: 20px; trong CSS hiện đại */
+}
+
+.grid-container div {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #777;
+}
